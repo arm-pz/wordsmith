@@ -1,37 +1,147 @@
-# Wordsmith test prompts
+# wordsmith test prompts
 
-Run these prompts with Wordsmith installed. Review the outputs against the checklist below.
+These prompts can be used to evaluate the generated skill.
 
-## Test 1: Minimalist naming
+## Draft
 
-Suggest names for a high-end, minimalist coffee roaster focused on direct-trade beans. The tone is quiet luxury.
+### Input
 
-Check that names are grouped by linguistic type and the top three get the required stress test.
+Write a friendly welcome email for a new customer who has just created an account.
 
-## Test 2: Rewrite generic copy
+### Expected behavior
 
-Rewrite this for a small independent bookkeeping firm:
-"We empower businesses to unlock seamless financial success with robust, next-gen solutions."
+- creates a complete email;
+- uses a friendly and clear tone;
+- includes a useful next step;
+- does not invent product features.
 
-Check that the rewrite removes empty marketing language without adding claims about the firm's results or capabilities.
+## Edit
 
-## Test 3: Short product tagline
+### Input
 
-Write five taglines for a simple invoicing app for independent designers. Keep each under seven words. Make them clear, not cute.
+Fix the grammar and punctuation in the following text, but preserve my voice:
 
-Check that the lines are concise, distinct, and within the length limit.
+> I wanted to reach out because we have made some changes that I think will be really useful for you and your team.
 
-## Test 4: Missing evidence
+### Expected behavior
 
-Write premium website copy for a new skincare product. The brief gives no ingredients, clinical results, or customer testimonials.
+- makes only necessary corrections;
+- does not substantially rewrite the sentence;
+- preserves the author's tone.
 
-Check that the copy sounds polished without inventing ingredients, results, awards, or testimonials.
+## Rewrite
 
-## Review checklist
+### Input
 
-- Did the copy follow the brief and its constraints?
-- Did it avoid generic marketing language?
-- Were the options distinct and usable?
-- Did it avoid inventing claims?
-- For naming, did it include the requested categories and stress tests?
-- Did it avoid claiming trademark, domain, or market availability?
+Rewrite this announcement so that it sounds confident, direct, and helpful without sounding aggressive.
+
+### Expected behavior
+
+- changes the structure if necessary;
+- preserves the original facts;
+- improves clarity and directness;
+- does not invent details.
+
+## Tighten
+
+### Input
+
+Shorten the following text by approximately 30 percent while preserving the argument, evidence, and qualifications.
+
+### Expected behavior
+
+- removes repetition and filler;
+- preserves the main point;
+- preserves important qualifications;
+- aims for the requested reduction.
+
+## Simplify
+
+### Input
+
+Rewrite this technical explanation for a general audience with no technical background.
+
+### Expected behavior
+
+- explains necessary technical terms;
+- uses plain language;
+- retains technical accuracy;
+- does not make the explanation childish.
+
+## Tone
+
+### Input
+
+Make this customer message warm, calm, and professional. Avoid sounding corporate or overly enthusiastic.
+
+### Expected behavior
+
+- changes tone deliberately;
+- preserves the message;
+- avoids exaggerated language;
+- uses natural phrasing.
+
+## Critique
+
+### Input
+
+Review this article and identify the three most important weaknesses.
+
+### Expected behavior
+
+- prioritizes major issues;
+- explains why each issue matters;
+- points to specific parts of the text;
+- does not rewrite the whole article automatically.
+
+## Audit
+
+### Input
+
+Audit this proposal for clarity, structure, repetition, unsupported claims, audience fit, and tone.
+
+### Expected behavior
+
+- provides a scorecard;
+- identifies findings with severity;
+- distinguishes problems from recommendations;
+- flags claims that need verification.
+
+## Voice
+
+### Input
+
+Analyze these three writing samples and produce a practical style guide for the author.
+
+### Expected behavior
+
+- identifies recurring patterns;
+- discusses sentence length, vocabulary, tone, and rhythm;
+- produces usable style rules;
+- avoids vague labels without explanation.
+
+## Factcheck
+
+### Input
+
+List every factual claim in this draft that should be verified before publication.
+
+### Expected behavior
+
+- separates claims from opinions;
+- identifies statistics and specific assertions;
+- does not pretend to have verified anything;
+- does not invent sources.
+
+## Final
+
+### Input
+
+Prepare this announcement for publication.
+
+### Expected behavior
+
+- fixes mechanical errors;
+- checks names, numbers, dates, and placeholders;
+- flags unresolved issues;
+- returns clean final copy first.
