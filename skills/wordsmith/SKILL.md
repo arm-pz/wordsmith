@@ -1,8 +1,6 @@
 ---
 name: wordsmith
-description: >
-  A structured writing and editorial assistant for drafting, rewriting,
-  critique, clarity, tone, concision, accessibility, and publication review.
+description: Use when the user wants to write, draft, rewrite, edit, proofread, polish, or improve text; enhance clarity, concision, tone, voice, grammar, structure, headlines, emails, website copy, marketing copy, or publication-ready content while preserving intended meaning.
 argument-hint: "[command] [target]"
 user-invocable: true
 ---

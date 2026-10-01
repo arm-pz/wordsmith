@@ -1,21 +1,22 @@
-# wordsmith
+# Wordsmith
 
-A structured AI writing and editorial skill for drafting, rewriting, critique, clarity, tone, concision, and publication review.
+A portable Agent Skill for drafting, rewriting, editing, proofreading, and polishing text.
 
-## What this skill does
+Wordsmith helps AI coding agents produce clearer, more concise, natural, and publication-ready writing while preserving the author's meaning and voice.
 
-`wordsmith` helps with:
+## Use when
 
-- creating drafts from ideas or notes;
-- building outlines;
-- rewriting existing text;
-- preserving the author's voice;
-- improving grammar and clarity;
-- tightening long or repetitive writing;
-- changing tone;
-- reviewing structure and audience fit;
-- identifying unsupported claims;
-- preparing content for publication.
+Use Wordsmith when you need to:
+
+- draft content from an idea or brief;
+- rewrite or polish existing text;
+- proofread grammar and spelling;
+- improve clarity, flow, and concision;
+- change tone or reading level;
+- create headlines, titles, emails, or website copy;
+- critique structure and audience fit;
+- review accessibility and readability;
+- prepare content for publication.
 
 ## Installation
 
@@ -36,9 +37,21 @@ Depending on the agent platform, that may be one of:
 
 Consult the documentation for the agent platform you use to determine the correct location.
 
+Or install via the Skills CLI:
+
+```bash
+npx skills add arm-pz/wordsmith --skill wordsmith
+```
+
+For Claude Code specifically:
+
+```bash
+npx skills add arm-pz/wordsmith --skill wordsmith --agent claude-code
+```
+
 ## Usage
 
-You can invoke the skill with a command:
+Invoke with a command:
 
 ```text
 /wordsmith draft
@@ -50,19 +63,30 @@ You can invoke the skill with a command:
 /wordsmith final
 ```
 
-You can also use natural language:
+Or describe the task naturally:
 
 ```text
-Rewrite this email to sound warm and confident.
+Rewrite this paragraph for a professional website while preserving its meaning.
+Make this email warmer without sounding corporate.
+Check this article for unsupported claims and unclear sections.
 ```
 
-```text
-Check this article for repetition and unsupported claims.
-```
+### Command quick reference
 
-```text
-Make this explanation easier for a general audience to understand.
-```
+| Command | When to use |
+|---------|-------------|
+| `brief` | Turn an idea into a structured writing brief |
+| `outline` | Plan structure before drafting |
+| `draft` | Write new content from notes or prompt |
+| `edit` | Fix grammar/spelling, preserve voice |
+| `rewrite` | Substantial transformation |
+| `critique` | Diagnose problems without auto-rewriting |
+| `audit` | Systematic quality review with scorecard |
+| `tighten` | Reduce length, remove filler |
+| `simplify` | Make technical text accessible |
+| `tone` | Change emotional/professional register |
+| `polish` | Final refinement pass |
+| `final` | Pre-publication check + placeholder flagging |
 
 ## Commands
 
@@ -182,7 +206,7 @@ These aliases map to the main commands:
 
 ## Design principles
 
-`wordsmith` should:
+Wordsmith should:
 
 - preserve the author's intended meaning;
 - preserve important facts, names, numbers, and quotations;
@@ -194,7 +218,7 @@ These aliases map to the main commands:
 - identify uncertainty instead of pretending to know;
 - return the requested writing before lengthy commentary.
 
-`wordsmith` should not:
+Wordsmith should not:
 
 - silently change dates, numbers, names, or commitments;
 - make unsupported claims sound certain;
