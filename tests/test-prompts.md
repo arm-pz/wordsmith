@@ -1,4 +1,4 @@
-# {{ skill_name }} test prompts
+# Wordsmith test prompts
 
 These prompts can be used to evaluate the generated skill. Each test includes realistic input and expected behavior.
 
