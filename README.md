@@ -155,16 +155,19 @@ These aliases map to the main commands:
 
 | Alias | Main command |
 |---|---|
-| `proofread` | `edit` |
-| `grammar` | `edit` |
+| `proofread` | `proof` |
+| `grammar` | `proof` |
 | `review` | `critique` |
+| `feedback` | `critique` |
 | `check` | `audit` |
-| `shorten` | `tighten` |
+| `quality-check` | `audit` |
 | `condense` | `tighten` |
 | `make-clear` | `clarity` |
 | `make-simple` | `simplify` |
 | `ready-to-send` | `final` |
 | `publication` | `final` |
+
+Note: `shorten` is a command in its own right (hit a length target), not an alias for `tighten` (remove filler).
 
 ## Typical workflows
 
@@ -252,4 +255,4 @@ Copier stores the original answers in:
 
 ## License
 
-Add your chosen license here.
+MIT — see [LICENSE](LICENSE).
