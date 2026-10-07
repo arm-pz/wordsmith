@@ -11,10 +11,11 @@ description: >-
   LinkedIn profiles (use recruiter-lens if installed), not for code or code
   comments, and not for building .docx or .pdf files (write the text here, then
   use the file skill).
+version: 1.0.0
 argument-hint: "[command] [target]"
 user-invocable: true
 metadata:
-  version: "0.2.0"
+  version: "1.0.0"
 ---
 
 # Wordsmith
